@@ -1,7 +1,14 @@
 @import './base.css';
 
-.custom-diver{
-  background-color: #fafafa;
+.custom-divider {
+  flex: 1;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 0 10px;
+}
+
+.content {
+  padding-top: 80px;
 }
 
 .card-header {
@@ -12,14 +19,14 @@
 
 .box-card {
   margin: 0 auto;
-  max-width: 400px;
+  max-width: 450px;
+  height: 580px;
   border-radius: 8px;
   background-color: #ffcfc6;
 }
 
 .custom-button-color {
   color: #fafafa;
-  margin-top: 5px;
   background-color: #b1857d;
 }
 
