@@ -11,6 +11,10 @@
   padding-top: 80px;
 }
 
+.content-mobile {
+  padding-top: 70px;
+}
+
 .card-header {
   display: flex;
   justify-content: space-between;
@@ -18,9 +22,9 @@
 }
 
 .box-card {
+  height: 580px;
   margin: 0 auto;
   max-width: 450px;
-  height: 580px;
   border-radius: 8px;
   background-color: #ffcfc6;
 }
