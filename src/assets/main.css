@@ -1,9 +1,15 @@
 @import './base.css';
 
-.footer{
-  padding: 20px;
-  color: #fafafa;
+.carousel-relatos {
+  width: 300px;
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer{
+  padding: 7px;
+  color: #fafafa;
+  margin-top: 10px;
   text-align: center;
   background-color: #b1857d;
 }
@@ -11,8 +17,8 @@
 .custom-divider {
   flex: 1;
   height: 2px;
-  background-color: #ffffff;
   margin: 0 10px;
+  background-color: #ffffff;
 }
 
 .content {
