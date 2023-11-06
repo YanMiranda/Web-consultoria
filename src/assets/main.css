@@ -1,5 +1,13 @@
 @import './base.css';
 
+.footer{
+  padding: 20px;
+  color: #fafafa;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #b1857d;
+}
+
 .custom-divider {
   flex: 1;
   height: 2px;
@@ -48,6 +56,14 @@
 .descriptions {
   color: #fafafa;
   background-color: transparent;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
 
 /* #app {
