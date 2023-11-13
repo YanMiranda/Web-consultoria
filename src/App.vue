@@ -7,9 +7,6 @@
             <img v-if="isMobile" src="./components/img/LOGO.png" alt="Mobile Logo" class="logo" />
             <img v-else src="./components/img/MARCA.png" alt="Desktop Logo" class="logoMarca" />
           </el-menu-item>
-          <el-menu-item>
-            <RouterLink to="/about">Sobre mim</RouterLink>
-          </el-menu-item>
         </el-menu>
 
         <el-backtop class="custom-backtop-color" :right="(isMobile) ? 10 : 30" :bottom="100" />
@@ -23,12 +20,11 @@
 </template>
 
 <script>
-import { RouterLink, RouterView } from 'vue-router';
+import { RouterView } from 'vue-router';
 import HomePage from './components/home/HomePage.vue';
 
 export default {
   components: {
-    RouterLink,
     RouterView,
     HomePage
   },

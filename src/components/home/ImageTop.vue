@@ -1,7 +1,14 @@
 <template>
   <div class="image-container">
-    <img src="../img/FUNDO_CORTADO.png" alt="FUNDO_CORTADO" class="custom-img-top" />
-    <el-button :class="(isMobile) ? 'custom-button-color overlay-button-mobile' : 'custom-button-color overlay-button'" :size="(isMobile) ? 'small' : 'large'" @click="scrollToPlans">Descobra os planos</el-button>
+    <img src="../img/FUNDO_CORTADO.png" alt="FUNDO_CORTADO" :class="(isMobile) ? 'custom-img-mobile' : 'custom-img-top'" />
+    <!-- <img v-else src="../img/FUNDO.png" alt="FUNDO_CORTADO" :class="(isMobile) ? 'custom-img-mobile' : 'custom-img-top'" /> -->
+    <el-button
+      :class="(isMobile) ? 'custom-button-color overlay-button-mobile' : 'custom-button-color overlay-button'"
+      :size="(isMobile) ? 'small' : 'large'"
+      @click="scrollToPlans"
+    >
+      Descubra os planos
+    </el-button>
   </div>
 </template>
 
@@ -19,8 +26,12 @@ export default {
 
 <style scoped>
 @import '../../assets/main.css';
-
 .custom-img-top {
+  width: 100%;
+  height: 100%;
+}
+
+.custom-img-mobile {
   width: 100%;
   height: 100%;
 }
